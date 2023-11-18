@@ -1,10 +1,3 @@
-// interface ICountDown {
-//     Days: number;
-//     Hours: number;
-//     Mins: number;
-//     Sec: number;
-// }
-
 import { FaFacebook, FaInstagram, FaYoutube, FaLine } from 'react-icons/fa6';
 import { Link, Outlet } from 'react-router-dom';
 
@@ -27,16 +20,6 @@ const Layout = () => {
       route: '/contact',
     },
   ];
-
-  // const countDown: ICountDown = {
-  //     Days: 100,
-  //     Hours: 16,
-  //     Mins: 13,
-  //     Sec: 25
-  // };
-
-  // const marquee =
-  //     '快來喵喵 喵喵喵 喵電感應 感覺到我跟你同時觸電反應 不管相隔多遠都能互相連繫';
 
   const footerNavConfig = [
     {
